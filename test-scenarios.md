@@ -74,3 +74,36 @@
 
 ### TS-033 - Update account with empty required fields
 
+## US-005 - Search Products
+
+### TS-034 - Search for an existing product
+
+### TS-035 - Search for a non-existing product
+
+### TS-036 - Search with an empty search field
+
+### TS-037 - Search using part of a product name
+
+### TS-038 - Search using numbers
+
+### TS-039 - Search using special characters
+
+### TS-040 - Search using different letter cases
+
+### TS-041 - Search for a product by SKU
+
+### TS-042 - Search using advanced search options
+
+## US-006 - Filter Products
+
+### TS-043 - Browse products by category
+
+### TS-044 - Browse products by subcategory
+
+### TS-045 - Filter products using available filters
+
+### TS-046 - Apply multiple filters together
+
+### TS-047 - Clear applied filters
+
+### TS-048 - Verify that filtered results match the selected criteria

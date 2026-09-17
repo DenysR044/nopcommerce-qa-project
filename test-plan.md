@@ -13,35 +13,46 @@ The goal of this project is to check the quality of the nopCommerce e-commerce a
 ## 3. Scope
 
 ### Authentication & Account Management
+
 - User registration
 - Login and logout
 - Password recovery
-- Account-related functionality
+- Account information management
+- Password management
+- Address management
 
 ### Product Discovery
+
 - Product catalog
+- Categories and subcategories
 - Product search
-- Categories
-- Filters
-- Sorting
+- Product filters
+- Product sorting
 - Product details
 
 ### Shopping Cart
+
 - Add products to cart
 - Remove products from cart
 - Change product quantity
 - Verify cart contents and totals
 
 ### Checkout & Payment
+
 - Checkout flow
-- Customer and shipping information
-- Payment method
+- Customer and delivery information
+- Shipping methods
+- Payment methods
+- Payment information
 - Order placement
 
 ### Order Management
+
 - Order confirmation
 - Order history
+- Order details
 - Order status
+- Order cancellation
 
 ## 4. Out of Scope
 
@@ -79,33 +90,48 @@ The goal of this project is to check the quality of the nopCommerce e-commerce a
 ## 7. Test Data
 
 ### User Account Data
-- Valid user account
+
+- Valid registered user account
+- Unregistered email addresses
 - Invalid email addresses
-- Invalid passwords
+- Valid and invalid passwords
+- Passwords with boundary values based on the documented 6–64 character limit
 - Empty required fields
 
 ### Product Data
+
 - Available products
-- Products from different categories
+- Products from different categories and subcategories
 - Products from different manufacturers
 - Products with different prices and quantities
+- Product SKUs
 
 ### Checkout Data
-- Valid customer information
-- Invalid and incomplete customer information
-- Valid test payment card number
-- Invalid card numbers
+
+- Valid customer and delivery information
+- Incomplete customer and delivery information
+- Available shipping methods
+- Available payment methods
+- Valid test payment card numbers
+- Invalid payment card numbers
 
 ### Search and Filter Data
+
 - Existing product names
 - Non-existing product names
+- Partial product names
+- Product SKUs
+- Different search input values
+- Available filter values
+- Available sorting options
 - Valid and invalid filter combinations
 
-**Note:** Only test data is used during testing. No real payment or personal data is stored in the project.
+**Note:** Only test or synthetic data is used during testing. No real payment or personal data is stored in the project.
 
 ## 8. Risks and Priorities
 
 ### High Priority
+
 - Registration
 - Login and logout
 - Password recovery
@@ -117,13 +143,18 @@ The goal of this project is to check the quality of the nopCommerce e-commerce a
 Issues in these areas can prevent users from accessing their accounts or completing a purchase.
 
 ### Medium Priority
+
+- Account information and address management
 - Product filters and sorting
 - Product details
 - Order history
+- Order status
+- Order cancellation
 
-Issues in these areas may affect the user experience but may not always prevent the user from completing a purchase.
+Issues in these areas may affect the user experience or parts of the customer journey but may not always prevent a purchase.
 
 ### Low Priority
+
 - Minor UI issues
 - Cosmetic issues
 - Non-critical information display

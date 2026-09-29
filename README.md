@@ -2,6 +2,8 @@
 
 Independent manual QA project for the nopCommerce Demo Store.
 
+**Application Under Test:** [nopCommerce Demo Store](https://demo.nopcommerce.com/)
+
 The project demonstrates the complete manual testing process: test planning, user stories, test scenarios, test cases, test execution, bug reporting, exploratory testing, and test summary.
 
 ## Project Goal
